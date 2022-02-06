@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+     background-color: #eaecee;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid black;
+
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 35px;
+}
+.searchbar{
+    position: relative;
+}
+.searchbar input{
+    width: 280px;
+    height: 34px;
+    outline: none;
+    padding-left: 35px;
+    border: none;
+    background-color: #e7eff6;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.searchbar i{
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    width: 5px;
+}
+.nav-list ul{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul li, .work{
+    margin: 0 13px;
+}
+.nav-list ul li a, .work a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #252222d6;
+}
+.nav-list ul li a i, .work a i{
+    font-size: 28px;
+}
+.nav-list ul li a div, .work a div{
+    font-size: 14px;
+}
+
+.right-container{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.try-premium{
+    width: 100px;
+    text-align: center;
+}
+.try-premium a{
+    color: #915907;
+    font-size: 12px;
+}
+.try-premium a:hover{
+    text-decoration: underline;
+}
