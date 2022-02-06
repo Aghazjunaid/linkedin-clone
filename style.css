@@ -10,6 +10,7 @@ body{
      background-color: #eaecee;
 }
 
+/* header css starts */
 header{
     width: 100%;
     background-color: white;
@@ -17,6 +18,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
 }
 .container{
     width: 75%;
@@ -94,4 +96,22 @@ header{
 }
 .try-premium a:hover{
     text-decoration: underline;
+}
+
+/* header css ends */
+.content-area{
+    display: flex;
+}
+
+.aside-1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.content-body{
+    width: 40%;
+}
+.aside-2{
+    width: 40%;
 }
